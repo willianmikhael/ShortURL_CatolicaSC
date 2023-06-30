@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Encurtador de URL</title>
+</head>
+<body>
+<h1>Encurtador de URL</h1>
+
+<form method="post" action="/shorten">
+    <label for="originalURL">URL Original:</label>
+    <input type="text" id="originalURL" name="url" required>
+    <button type="submit">Encurtar</button>
+</form>
+
+<br>
+
+<div th:if="${shortURL != null}">
+    <p>URL Encurtada:</p>
+    <a th:href="@{'/' + ${shortURL}}" th:text="'localhost:8080/' + ${shortURL}">localhost:8080/${shortURL}</a>
+
+
+</div>
+</body>
+</html>
