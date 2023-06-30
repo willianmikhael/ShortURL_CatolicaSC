@@ -79,7 +79,7 @@ As vantagens de utilizar o H2 em desenvolvimento e testes com o Spring Boot incl
 
 ### 
 <div align="center">
- <img src="https://github.com/willianmikhael/ShortURL_CatolicaSC/assets/111321384/09addb55-5815-4b47-b4d6-a674db589b59.png" />
+ <img src="https://github.com/willianmikhael/ShortURL_CatolicaSC/assets/111321384/103617a4-0b67-4a6f-a207-1075ee989f39.png" />
  </div>
  
  ## Instalação
